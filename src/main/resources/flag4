@@ -1,0 +1,20 @@
+Paint Save File Version 1.0
+Rectangle
+	color:118,200,160
+	filled:false
+	p1: (78,135)
+	p2: (398,314)
+End Rectangle
+Rectangle
+	color:115,124,131
+	filled:false
+	p1: (211,172)
+	p2: (267,275)
+End Rectangle
+Rectangle
+	color:247,0,133
+	filled:true
+	p1: (168,202)
+	p2: (313,241)
+End Rectangle
+End Paint Save File

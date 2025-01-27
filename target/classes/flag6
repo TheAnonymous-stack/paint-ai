@@ -1,0 +1,92 @@
+Paint Save File Version 1.0
+Rectangle
+	color:34,146,222
+	filled:false
+	p1: (64,134)
+	p2: (390,313)
+End Rectangle
+Rectangle
+	color:140,180,64
+	filled:true
+	p1: (204,135)
+	p2: (249,315)
+End Rectangle
+Rectangle
+	color:113,229,110
+	filled:true
+	p1: (63,209)
+	p2: (391,244)
+End Rectangle
+Polyline
+	color:54,5,140
+	filled:true
+	points
+		point:(64,256)
+		point:(168,256)
+		point:(63,296)
+	end points
+End Polyline
+Polyline
+	color:130,162,88
+	filled:false
+	points
+		point:(79,312)
+		point:(194,260)
+		point:(194,312)
+	end points
+End Polyline
+Polyline
+	color:191,144,198
+	filled:false
+	points
+		point:(258,312)
+		point:(257,257)
+		point:(369,313)
+	end points
+End Polyline
+Polyline
+	color:251,87,65
+	filled:false
+	points
+		point:(389,292)
+		point:(294,251)
+		point:(389,252)
+	end points
+End Polyline
+Polyline
+	color:14,179,86
+	filled:true
+	points
+		point:(64,200)
+		point:(173,200)
+		point:(63,150)
+	end points
+End Polyline
+Polyline
+	color:250,47,14
+	filled:true
+	points
+		point:(90,134)
+		point:(190,187)
+		point:(189,134)
+	end points
+End Polyline
+Polyline
+	color:160,126,223
+	filled:true
+	points
+		point:(263,135)
+		point:(262,190)
+		point:(364,135)
+	end points
+End Polyline
+Polyline
+	color:94,184,243
+	filled:true
+	points
+		point:(388,149)
+		point:(270,202)
+		point:(388,199)
+	end points
+End Polyline
+End Paint Save File

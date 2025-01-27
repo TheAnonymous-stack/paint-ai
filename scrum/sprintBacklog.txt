@@ -1,0 +1,133 @@
+# Move User Stories from the ProductBacklog 
+# to the appropriate Sprint below, after the 
+# Sprint Planning Meeting.
+
+# Sprint 1 November 19, 2019
+# Sprint 1 Backlog UserStories go below
+--------------------------------------------------------------------------
+TYPE     : USER STORY 3.1 : nguy3774 : STATUS : Complete
+NAME     : Polyline
+OWNER    :
+PRIORITY : 1
+ESTIMATE : 1 hour    ACTUAL : 2 hours
+AS A     : user
+ISSUE    : A button which allows me to draw a polyline. Once selected,
+a left click on the canvas places the first polyline point.
+Each subsequent left click on the canvas
+adds a line segment to the polyline. A final right click ends the polyline.
+The next left click starts another polyline.  As the mouse moves over
+the canvas, the current potential next line segment is on display.
+
+IMPL DTL : Implementation details for polyline
+See squiggle for example. There is no mouse drag for polyline.
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 3.2 : nguy3774 : STATUS : Complete
+NAME     : Save
+OWNER    :
+PRIORITY : 1
+ESTIMATE : 1 hour    ACTUAL :  2 hours
+AS A     : user
+ISSUE    : a user interface that allows me to specify where to save the
+Paint, then saves all Paint commands to a file.
+IMPL DTL : Implementation details for the save feature:
+
+This amounts to saving the command list to a file according
+to the Paint Save File Format.
+Do this using what you have learned in class about FileIO.
+You can find the format of the save file in the
+project under paintSaveFileFormat.txt.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 3.3 : nguy3774 : STATUS : Complete
+NAME     : Load
+OWNER    :
+PRIORITY : 2
+ESTIMATE : 3 hours    ACTUAL : 6 hours
+AS A     : user
+ISSUE    : the ability to open previously saved Paint programs. A file dialog
+should appear, allowing me to choose the file to load. If the file is not in
+the correct format, provide an appropriate error message.
+IMPL DTL : Implementation details for the load feature:
+
+Read a file in Paint Save File Format, being careful to parse
+each line using an appropriate regular expression/expressions.
+You can find the format of the save file in the
+project under paintSaveFileFormat.txt.
+
+The result of the execution of the load method should modify
+the given PaintModel. Some ShapeCommands will require careful parsing.
+For example, you will have to walk
+through a squiggle to properly parse it using Patterns and groups.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 3.6 : nguy3774 : STATUS : Complete
+NAME     : newFile1
+OWNER    :
+PRIORITY : 2
+ESTIMATE : 2 hours    ACTUAL : 3 hours
+AS A     : user
+ISSUE    : a method of OllamaPaint that draws a cartoon face given examples in
+the resources directory
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 3.7 : nguy3774 : STATUS : Complete
+NAME     : newFile2
+OWNER    :
+PRIORITY : 2
+ESTIMATE : 2 hours    ACTUAL : 3 hours
+AS A     : user
+ISSUE    : a method of OllamaPaint that draws a country flag given examples in
+the resources directory
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 3.8 : nguy3774 : STATUS : Complete
+NAME     : newFile3
+OWNER    :
+PRIORITY : 2
+ESTIMATE : 2 hours    ACTUAL : 3 hours
+AS A     : user
+ISSUE    : a method of OllamaPaint that draws a polygon of random number of sides
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 3.9 : nguy3774 : STATUS : Complete
+NAME     : modifyFile1
+OWNER    :
+PRIORITY : 2
+ESTIMATE : 2 hours    ACTUAL : 3 hours
+AS A     : user
+ISSUE    : a method of OllamaPaint that modifies a given Paint File so that
+it features more characteristics of a Picasso painting
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 3.10 : nguy3774 : STATUS : Complete
+NAME     : modifyFile2
+OWNER    :
+PRIORITY : 2
+ESTIMATE : 2 hours    ACTUAL : 3 hours
+AS A     : user
+ISSUE    : a method of OllamaPaint that connects and asks ChatGPT to modify
+a given Paint File to make it look happier
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 3.11 : nguy3774 : STATUS : Complete
+NAME     : modifyFile3
+OWNER    :
+PRIORITY : 2
+ESTIMATE : 2 hours    ACTUAL : 3 hours
+AS A     : user
+ISSUE    : a method of OllamaPaint that asks Ollama to replace the shapes that it
+does not like with shapes that will increase the Christmas spirit of a given Paint File
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 3.6 : nguy3774 : STATUS : Complete
+NAME     : sanitizeResponse
+OWNER    :
+PRIORITY : 2
+ESTIMATE : 1 hours    ACTUAL : 1 hour
+AS A     : user
+ISSUE    : a method of OllamaPaint that corrects the common typo errors for Squiggle
+and Polyline made by Ollama when it returns a Paint File, such as wrapping parentheses
+around point, replacing colon with coma.
+--------------------------------------------------------------------------

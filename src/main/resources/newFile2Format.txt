@@ -1,0 +1,27 @@
+A Paint File consists of a sequence of lines summarizing
+instructions to create a shape.
+The first line of the response must always be Paint Save File Version 1.0
+Then, the following lines will be a series of instructions to create shapes.
+There are 4 possible shapes to create: Circle, Rectangle, Squiggle, Polyline.
+Each shape will require its own specifications.
+
+To write the instruction to create any shape, start by writing the name of the shape on a line.
+Then, in the next line, list 3 random positive integer values for RGB color after color:
+Unless otherwise specified, each shape should have a different color.
+In the following line, write filled: true
+Aside from these 2 common characteristics, each shape will require its own specifications
+A Circle requires specifying its center in the form of a tuple of integers and a positive integer for radius.
+After writing the details, write End Circle on the next line to indicate completion of a Circle shape.
+A Rectangle requires specifying the coordinates of top left and bottom right corners in the form of a tuple of integers.
+After writing the details, write End Rectangle on the next line to indicate completion of a Rectangle shape.
+A Squiggle requires specifying the start of a list of points the Squiggle passes through by writing points on a line.
+Then, the following lines will have the coordinates of the points in the form of a tuple of integers.
+Follow strictly the format point:(x,y) where x and y are the integer coordinate values for each line.
+After finishing all the points, write end points on the next line. Then on the next line,
+write End Squiggle to indicate completion of a Squiggle shape.
+A Polyline requires specifying the start of a list of points the Polyline passes through by writing points on a line.
+Then, the following lines will have the coordinates of the points in the form of a tuple of integers.
+After all the points are listed, write end points on the next line.
+Follow strictly the format point:(x,y) where x and y are the integer coordinate values for each line.
+After listing the points, write end points on the next line. Then, write End Polyline on the next line
+to indicate completion of a Polyline shape. The last line of the file must always be End Paint Save File

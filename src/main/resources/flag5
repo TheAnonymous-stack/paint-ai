@@ -1,0 +1,29 @@
+Paint Save File Version 1.0
+Rectangle
+	color:75,238,98
+	filled:false
+	p1: (92,131)
+	p2: (386,290)
+End Rectangle
+Rectangle
+	color:253,111,124
+	filled:false
+	p1: (93,131)
+	p2: (384,193)
+End Rectangle
+Rectangle
+	color:248,237,141
+	filled:false
+	p1: (92,192)
+	p2: (387,245)
+End Rectangle
+Polyline
+	color:35,46,9
+	filled:true
+	points
+		point:(93,131)
+		point:(152,214)
+		point:(93,288)
+	end points
+End Polyline
+End Paint Save File

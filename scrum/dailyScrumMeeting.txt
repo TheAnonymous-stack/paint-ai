@@ -1,0 +1,106 @@
+# Fill in, commit and push each day.
+# Group Member: Ho Tien Thanh Nguyen
+
+Nov 16, 2024
+	Yesterday :
+	Today     :
+	Obstacles :
+
+Nov 17, 2024
+	Yesterday :
+	Today     :
+	Obstacles :
+
+Nov 18, 2024
+	Yesterday :
+	Today     :
+	Obstacles :
+
+Nov 19, 2024
+	Yesterday :
+	Today     :
+	Obstacles :
+
+Nov 20, 2024
+	Yesterday :
+	Today     :
+	Obstacles :
+
+Nov 21, 2024
+	Yesterday :
+	Today     :
+	Obstacles :
+
+Nov 22, 2024
+	Yesterday :
+	Today     :
+	Obstacles :
+	
+Nov 23, 2024
+	Yesterday :
+	Today     :
+	Obstacles :
+
+Nov 24, 2024
+	Yesterday :
+	Today     : Familiarize myself with the codebase
+	            and finish the lab questions in exercise.txt
+	Obstacles : Understanding the relationship between the classes
+
+Nov 25, 2024
+	Yesterday : Familiarize myself with the codebase
+	Today     : Implement US 3.1
+	Obstacles : Displaying the next potential line on MOUSE_MOVED
+
+Nov 26, 2024
+	Yesterday : Implement US 3.1
+	Today     : Implement US 3.2
+	Obstacles : Writing shape attributes to a file
+	
+Nov 27, 2024
+	Yesterday : Implement US 3.2
+	Today     : Implement US 3.3
+	Obstacles : Designing a state machine that fits within the suggested range
+	
+Nov 28, 2024
+	Yesterday : Implement US 3.3
+	Today     : Implement OllamaPaint.newFile() and OllamaPaint.modifyFile()
+	Obstacles : Writing a format file that is concise and comprehensive so that llama3
+	            has proper instructions in its system
+	
+Nov 29, 2024
+	Yesterday : Implement OllamaPaint.newFile() and OllamaPaint.modifyFile()
+	Today     : Implement newFile1(), newFile2(), newFile3()
+	Obstacles : Giving Ollama guidance to make its own design using examples and clear instructions
+
+Nov 30, 2024
+	Yesterday : Implement newFile1(), newFile2(), newFile3()
+	Today     : Implement modifyFile1(), modifyFile2(), modifyFile3()
+	Obstacles : Coming up with ideas for the prompts and crafting prompts that provide the not
+	just enough details for the Ollama to follow but also enough room for Ollama to make its own judgement.
+
+Dec 1, 2024
+	Yesterday : Implement modifyFile1(), modifyFile2(), modifyFile3()
+	Today     : Write sanitizeResponse() to correct any typo in the Paint File returned by Ollama
+	Obstacles : Covering as many possibilities of typo errors made by Ollama as possible
+	
+Dec 2, 2024
+	Yesterday :
+	Today     :
+	Obstacles :
+
+Dec 3, 2024
+	Yesterday :
+	Today     :
+	Obstacles :
+
+Dec 4, 2024
+	Yesterday :
+	Today     :
+	Obstacles :
+	
+Dec 5, 2024
+	Yesterday :
+	Today     :
+	Obstacles :
+

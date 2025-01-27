@@ -1,0 +1,7 @@
+There are various ways to modify a Paint File. Some of the common modification
+requests include removal of shapes, modification of shape attributes, changing of shapes
+in the specified Paint File.
+To remove a shape, delete the lines of the file from the line with the name of the shape to END shape name.
+For example, to remove a Circle, delete from the line with Circle to the first line that says End Circle.
+To modify the attributes of a shape, change the attributes of the specified shape.
+To change the shapes, remove the specified shapes and replace them with the instructions to create the request shapes.

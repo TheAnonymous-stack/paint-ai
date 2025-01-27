@@ -1,0 +1,65 @@
+Paint Save File Version 1.0
+Circle
+	color:115,183,68
+	filled:false
+	center: (211,152)
+	radius:124
+End Circle
+Circle
+	color:35,140,193
+	filled:false
+	center: (260,110)
+	radius:37
+End Circle
+Circle
+	color:183,65,152
+	filled:false
+	center: (265,112)
+	radius:20
+End Circle
+Circle
+	color:95,191,170
+	filled:true
+	center: (153,110)
+	radius:35
+End Circle
+Circle
+	color:8,149,168
+	filled:false
+	center: (152,111)
+	radius:15
+End Circle
+Circle
+	color:251,88,114
+	filled:true
+	center: (217,180)
+	radius:33
+End Circle
+Polyline
+	color:54,172,236
+	filled:true
+	points
+		point:(118,80)
+		point:(147,61)
+		point:(187,63)
+		point:(200,78)
+		point:(220,79)
+		point:(244,62)
+		point:(283,57)
+		point:(299,79)
+	end points
+End Polyline
+Polyline
+	color:191,24,213
+	filled:true
+	points
+		point:(142,237)
+		point:(188,225)
+		point:(243,223)
+		point:(282,232)
+		point:(251,258)
+		point:(211,265)
+		point:(142,238)
+	end points
+End Polyline
+End Paint Save File
