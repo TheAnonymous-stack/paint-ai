@@ -1,0 +1,81 @@
+A Paint File consists of a sequence of lines summarizing
+instructions to create a shape.
+The first line of the response must always be Paint Save File Version 1.0
+Then, the following lines will be a series of instructions to create shapes.
+There are 4 possible shapes to create: Circle, Rectangle, Squiggle, Polyline.
+Each shape will require its own specifications.
+
+EXAMPLE START
+Paint Save File Version 1.0
+Circle
+	color:25,76,32
+	filled:true
+	center:(123,58)
+	radius:11
+End Circle
+Rectangle
+	color:36,18,161
+	filled:false
+	p1:(62,102)
+	p2:(138,110)
+End Rectangle
+Squiggle
+	color:115,164,133
+	filled:true
+	points
+		point:(87,82)
+		point:(87,84)
+		point:(87,85)
+		point:(87,86)
+		point:(87,87)
+		point:(86,88)
+		point:(87,88)
+		point:(88,88)
+		point:(89,88)
+		point:(93,88)
+		point:(98,88)
+		point:(103,88)
+		point:(107,88)
+		point:(108,88)
+		point:(107,88)
+		point:(106,88)
+		point:(106,87)
+		point:(106,86)
+		point:(105,86)
+		point:(105,85)
+		point:(105,84)
+	end points
+End Squiggle
+Polyline
+	color:115,164,133
+	filled:false
+	points
+		point:(0,10)
+		point:(50,160)
+		point:(200,50)
+	end points
+End Polyline
+End Paint Save File
+EXAMPLE END
+
+In the example above, 4 different shapes created in total.
+To write the instruction to create any shape, start by writing the name of the shape on a line.
+Then, in the next line, list 3 random positive integer values for RGB color after color:
+Unless otherwise specified, each shape should have a different color.
+In the following line, specify whether the shape is filled or not by a boolean after filled:
+Unless otherwise specified, choose randomly whether a shape is filled or not.
+Aside from these 2 common characteristics, each shape will require its own specifications
+A Circle requires specifying its center in the form of a tuple of integers and a positive integer for radius.
+After writing the details, write End Circle on the next line to indicate completion of a Circle shape.
+A Rectangle requires specifying the coordinates of top left and bottom right corners in the form of a tuple of integers.
+For example, a 100 by 120 rectangle is a Rectangle whose corners must satisfy the condition that the length is 120 and width is 100.
+After writing the details, write End Rectangle on the next line to indicate completion of a Rectangle shape.
+A Squiggle requires specifying the start of a list of points the Squiggle passes through by writing points on a line.
+Then, the following lines will have the coordinates of the points in the form of a tuple of integers.
+After all the points are listed, write end points on the next line.
+After writing the details, write End Squiggle on the next line to indicate completion of a Squiggle shape.
+A Polyline requires specifying the start of a list of points the Polyline passes through by writing points on a line.
+Then, the following lines will have the coordinates of the points in the form of a tuple of integers.
+After all the points are listed, write end points on the next line.
+After writing the details, write End Polyline on the next line to indicate completion of a Polyline shape.
+The last line of the file must always be End Paint Save File. Do not add code comments in the Paint File
